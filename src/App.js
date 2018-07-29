@@ -7,7 +7,6 @@ import TocTacToi from "./Components/Toc-Tac-Toe";
 
 const App = () =>
         <div>
-            <img src={logo}/>
           <TocTacToi />
         </div>;
 
