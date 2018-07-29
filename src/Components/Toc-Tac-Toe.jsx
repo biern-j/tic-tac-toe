@@ -56,11 +56,16 @@ class TocTacToe extends React.Component {
 
         return (
         <div className="tic-tac-toy">
-            {/*<PlayerImage player={this.state.player} />*/}
-            <b>Now is {this.state.player} player</b>
-            <Board board={this.state.board} onClick={this.onCellClick}/>
-            <div>{winner ? <button onClick={this.resetGame}>wygrał {winner}. Zagraj jeszcze raz.</button> : <button onClick={this.resetGame}>Jesteś w trakcie gry. Chcesz zacząć od nowa?</button>}
+            <div style={{float: 'left'}}>
+                <div>Current player</div>
+                <div style={{width: '160px', height: '160px', display: 'inline-block'}}>
+                    <PlayerImage player={this.state.player}/>
+                </div>
             </div>
+            <span>
+                <button onClick={this.resetGame}>Nowa gra</button>
+            </span>
+            <Board winner={winner} board={this.state.board} onClick={this.onCellClick}/>
         </div>
         );
     }
