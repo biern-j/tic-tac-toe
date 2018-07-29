@@ -2,6 +2,7 @@ import React from 'react';
 import * as R from 'ramda';
 
 import Board from "./Board";
+import PlayerImage from "./ShowPlayerImg";
 
 const initialBoard = [
     ["", "", ""],
@@ -55,7 +56,8 @@ class TocTacToe extends React.Component {
 
         return (
         <div className="tic-tac-toy">
-            <div>Now is {this.state.player} player</div>
+            {/*<PlayerImage player={this.state.player} />*/}
+            <b>Now is {this.state.player} player</b>
             <Board board={this.state.board} onClick={this.onCellClick}/>
             <div>{winner ? <button onClick={this.resetGame}>wygrał {winner}. Zagraj jeszcze raz.</button> : <button onClick={this.resetGame}>Jesteś w trakcie gry. Chcesz zacząć od nowa?</button>}
             </div>
