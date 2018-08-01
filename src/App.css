@@ -4,94 +4,6 @@
   margin: 100px;
 
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-.App-image {
-
-  right:  150px;
-  height: 300px;
-}
-
-.header {
-  background-color: #222;
-  color: white;
-
-  width: 100px;
-  left: 0px;
-}
-
-.App-title {
-  font-size: 1.5em;
-  padding: 10px;
-}
-
-.App-intro {
-  font-size: large;
-}
-.footer {
-
-}
-a {
-  color: white;
-}
-.parent-kwadrat {
-  border: 20px solid silver;
-  width: 1300px;
-  height: 900px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.kwadraty {
-  float: right;
-  width: 200px;
-}
-.span1 {
-  color: white;
-  background: black;
-  border: 50px dashed aqua;
-  font-size: 30px;
-  padding: 10px;
-  }
-.span2 {
-  color: white;
-  background: black;
-  border: 50px dashed aqua;
-  padding: 10px;
-  font-size: 40px;
-}
-.span3 {
-  color: white;
-  background: black;
-  border: 50px dashed aqua;
-  padding: 10px;
-  font-size: 80px;
-}
-.paragraph1 {
-  background: darkmagenta;
-  border: 50px dashed rebeccapurple;
-  padding: 30px;
-  text-align: justify;
-  font-size: 50px;
-  font-weight: bold;
-}
-.cos-tam {
-  width: 100px;
-  height: 50px;
-  padding: 20px;
-  background: royalblue;
-  border: 60px double yellowgreen;
-  text-align: justify;
-  color: blanchedalmond;
-  font-weight: bolder;
-  font-size: 200%;
-}
-
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -105,7 +17,6 @@ table, tr, td {
   border: 1px solid #ddd;
   text-align: center;
 }
-
 table {
   border-collapse: collapse;
   width: 100%;
